@@ -11,6 +11,19 @@
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
 
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCa14Ishs17oulHSbLwjgGW-_sofCUICHQ",
+        authDomain: "namdi-project.firebaseapp.com",
+        databaseURL: "https://namdi-project.firebaseio.com",
+        projectId: "namdi-project",
+        storageBucket: "namdi-project.appspot.com",
+        messagingSenderId: "600403313767"
+      };
+      firebase.initializeApp(config);
+    </script>
 
 
     <!--custom files-->
@@ -20,10 +33,10 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Namdi's Messaging App</h1>
 
     <!--This div will be populated with messages-->
-    <div class="allMessages">
+    <div id="allMessages">
         
     </div>
     

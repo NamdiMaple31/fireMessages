@@ -50,7 +50,7 @@ h1 {
     text-align: center;
 }
 
-.allMessages {
+#allMessages {
     flex: 1;
     margin-top: 15px;
     width: calc(60% + var(--addedPadding)*2);
